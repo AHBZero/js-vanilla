@@ -1,0 +1,13 @@
+<svg width="224" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff"/>
+  
+  <circle cx="50%" cy="40%" r="80" fill="#ccc"/>
+  
+  <circle cx="140" cy="90" r="12" fill="grey"/>
+  <polygon points="60,160 100,90 140,160" fill="grey"/>
+  <polygon points="100,160 135,120 160,160" fill="grey"/>
+
+  <text x="50%" y="250" font-family="Arial, sans-serif" font-size="24" fill="grey" text-anchor="middle">
+    COMING SOON
+  </text>
+</svg>

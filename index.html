@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Searcher</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-container">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input type="text" id="searchInput" placeholder="Search for movies or TV shows..." autocomplete="off">
+        </div>
+
+        <div class="loading">
+            <span class="spinner"></span>
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+        <div class="no-results">No results found. Try another search!</div>
+
+        <div class="results-grid" id="resultsGrid"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
